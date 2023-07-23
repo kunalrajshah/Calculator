@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+/* Heading css */
+.heading h3{
+  color:rgb(20, 169, 169);
+  text-align: center;
+  margin-left:5%;
+  padding:1%;
+  width: 20%;
+  text-decoration:underline;
+ }
+ .heading span{
+  color: rgb(10, 60, 60);
+ }
+
+.calculator{
+  background: #000000;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* For All Button box */
+.container form input{
+  outline: 0;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin:10px;
+}
+
+/* For Display Box */
+.display{
+ display: flex;
+ justify-content: flex-end;
+}
+
+.display input{
+  text-align: right;
+  /* flex 1: The input element will grow and occupy available space along the main axis if there is extra space in the container.  */
+  flex: 1;    
+  font-size: 45px;
+  box-shadow: none;
+}
+
+/* Adding color on Button */
+#delete,#allclear,#mod,#divide,#multiply,#subtract,#addition{
+  color: rgb(7, 103, 7);
+}
+
+#equal{
+  border-radius: 50px;
+  background-color: orange;
+}
