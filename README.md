@@ -8,6 +8,6 @@ Features:
 -> Clear button to reset the input
 
 Demo:
-You can try out the live demo of the calculator here.
+You can try out the live demo of the calculator here https://kunalrajshah.github.io/Calculator/.
 
 ![calci](https://github.com/kunalrajshah/Calculator/assets/103275977/2b7d6da3-2d37-453e-a6bf-f985f61abae7)
