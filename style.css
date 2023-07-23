@@ -69,3 +69,20 @@
   border-radius: 50px;
   background-color: orange;
 }
+
+/* Adding insta Page */
+
+
+.instagram-link{
+  width:20px; /* Adjust the size of the Instagram logo as needed */
+  height:20px;
+  border-radius: 50%;
+}
+
+#follow{
+  margin-left: 1%;
+  color: rgb(50, 188, 188);
+}
+#follow span{
+  color: rgb(95, 149, 14);
+}
