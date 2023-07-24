@@ -26,7 +26,7 @@
  }
 
 .calculator{
-  background: #000000;
+  background: #a97f7f;
   border-radius: 20px;
   padding: 20px;
 }
@@ -86,3 +86,51 @@
 #follow span{
   color: rgb(95, 149, 14);
 }
+/* Add this media query to make the calculator responsive for mobile phones */
+@media screen and (max-width: 480px) {
+  /* Adjust the width and margin for the heading */
+  .heading h3 {
+    width: 100%;
+    margin: 5% 0;
+  }
+
+  /* Center the Instagram link */
+  #follow {
+    text-align: center;
+  }
+
+  /* Reduce the font size of the display input for better fit on mobile */
+  .display input {
+    font-size: 30px;
+  }
+
+  /* Adjust the width of the buttons to fit on smaller screens */
+  .container form input {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  /* Adjust margins to fit the buttons better on mobile */
+  .container form input:not([value="="]) {
+    margin: 5px;
+  }
+
+  /* Adjust font size for AC and DE buttons */
+  #allclear, #delete {
+    font-size: 14px;
+  }
+
+  /* Adjust font size and padding for the equal button */
+  #equal {
+    font-size: 20px;
+    padding: 5px 12px;
+  }
+
+  /* Adjust width and height of the Instagram logo */
+  .instagram-link {
+    width: 15px;
+    height: 15px;
+  }
+}
+
