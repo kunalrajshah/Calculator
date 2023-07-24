@@ -9,5 +9,5 @@ subtraction, multiplication,Mod and division, making it a handy tool for quick c
 
 # Demo:
 You can try out the live demo of the calculator here https://kunalrajshah.github.io/Calculator/.
-![cal](https://github.com/kunalrajshah/Calculator/assets/103275977/058c7483-8835-4549-8feb-af5a76ace228)
+![calci](https://github.com/kunalrajshah/Calculator/assets/103275977/419fcc62-6eed-4362-a00e-f58f93ba8499)
 
